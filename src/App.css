@@ -1,0 +1,37 @@
+
+.App {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.listOfUSer {
+  background-image: url(./Image/background.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 15em;
+  height: 10em;
+  margin: 1em;
+  padding: 1em;
+} 
+
+#name {
+  font-size: large;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  line-height: 12%;
+}
+
+#username {
+  font-size: small;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+#email {
+  font-size: medium;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 550;
+  float: right;
+}
